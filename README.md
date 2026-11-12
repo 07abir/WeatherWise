@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # WeatherWise — FastAPI + Streamlit
 
 This project uses the five pickle artifacts supplied for the WeatherWise model.
@@ -97,3 +98,7 @@ POST `http://127.0.0.1:8000/predict`
 - **Missing model artifact:** Ensure all five `.pkl` files remain inside `backend/models/`.
 - **Scikit-learn version warning/error:** The supplied artifacts were created with scikit-learn 1.6.1. This project pins that version. Avoid loading pickle files from unknown sources.
 - **Other cities rejected:** This is intentional because the current model was trained using Kolkata coordinates only.
+=======
+# WeatherWise
+This is a machine learning project to used to predict weather .
+>>>>>>> 6bdd9fe1076075c5cfefb3a78d1697ffac03cabd
